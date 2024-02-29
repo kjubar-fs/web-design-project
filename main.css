@@ -1,0 +1,12 @@
+/*
+ *  Author: Kaleb Jubar
+ *  Created: 28 Feb 2024, 9:38:56 PM
+ *  Last update: 28 Feb 2024, 9:48:21 PM
+ *  Copyright (c) 2024 Kaleb Jubar
+ */
+
+/* clear margin and padding to make our own styles */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
