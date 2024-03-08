@@ -1,0 +1,28 @@
+--  Author: Kaleb Jubar
+--  Created: 7 Mar 2024, 9:44:40 PM
+--  Last update: 8 Mar 2024, 8:27:50 AM
+--  Copyright (c) 2024 Kaleb Jubar
+
+hero-house.jpg
+https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?cs=srgb&dl=pexels-binyamin-mellish-1396122.jpg&fm=jpg
+
+services.jpg
+https://t4.ftcdn.net/jpg/02/69/66/55/360_F_269665555_EUTbghVSidprZtdsV94mhuq4vObgkXGo.jpg
+
+service-construction.jpg
+https://media.istockphoto.com/id/155445643/photo/new-homes-construction-site-framed-houses-lumber-building.jpg?s=612x612&w=0&k=20&c=i0eKwRAKzIjr09DhKi_QF76tnr-T05YUgBgoLTnmJzc=
+
+service-remodeling.jpg
+https://st2.depositphotos.com/3889193/7086/i/450/depositphotos_70862313-stock-photo-professional-decorator-working-at-desk.jpg
+
+service-repair.jpg
+https://media.istockphoto.com/id/173752672/photo/hurricane-katrina-damage-02.jpg?s=612x612&w=0&k=20&c=A7dOfhrKT6iMidpRdddok1l1HRRwAR21Rd261xXkVDk=
+
+service-roofing.jpg
+https://media.istockphoto.com/id/1025187342/photo/man-installing-asphalt-roof.jpg?s=612x612&w=0&k=20&c=p5JRLo7qef0hU84yCXAdKHcEYUT0_ozENF7H-RWiQKo=
+
+service-flooring.jpg
+https://media.istockphoto.com/id/171109280/photo/close-up-of-man-putting-hardwood-floor-panels-floorboards.jpg?s=612x612&w=0&k=20&c=B_0BFHcZvheMC79AFykK7whbS0RGYg3EPu-EyFjsoVY=
+
+service-hvac-elec.jpg
+https://t4.ftcdn.net/jpg/01/68/45/21/360_F_168452182_nMdAiFK2rhsT0FW6d7QyYSw0Eb0bFTTs.jpg
