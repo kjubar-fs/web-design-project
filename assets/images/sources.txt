@@ -1,16 +1,20 @@
 --  Author: Kaleb Jubar
 --  Created: 7 Mar 2024, 9:44:40 PM
---  Last update: 11 Mar 2024, 1:47:26 PM
+--  Last update: 11 Mar 2024, 6:10:03 PM
 --  Copyright (c) 2024 Kaleb Jubar
 
 hero-house.jpg
 https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?cs=srgb&dl=pexels-binyamin-mellish-1396122.jpg&fm=jpg
+hero-house-darkened.jpg
+Edited by Kaleb Jubar
 
 team.jpg
 https://media.istockphoto.com/id/1189913170/photo/engineer-and-businessman-handshake-at-construction-site.jpg?s=612x612&w=0&k=20&c=LAGNJv533KQKPrb71GiavOCaTKVI5IfR_QioV_t88hM=
 
 services-banner.jpg
 https://t4.ftcdn.net/jpg/02/69/66/55/360_F_269665555_EUTbghVSidprZtdsV94mhuq4vObgkXGo.jpg
+services-banner-darkened.jpg
+Edited by Kaleb Jubar
 
 service-construction.jpg
 https://media.istockphoto.com/id/155445643/photo/new-homes-construction-site-framed-houses-lumber-building.jpg?s=612x612&w=0&k=20&c=i0eKwRAKzIjr09DhKi_QF76tnr-T05YUgBgoLTnmJzc=
@@ -32,6 +36,8 @@ https://t4.ftcdn.net/jpg/01/68/45/21/360_F_168452182_nMdAiFK2rhsT0FW6d7QyYSw0Eb0
 
 gallery-banner.jpg
 https://media.istockphoto.com/id/856794670/photo/beautiful-luxury-home-exterior-with-green-grass-and-landscaped-yard.jpg?s=612x612&w=0&k=20&c=Jaun3vYekdy6aBcqq5uDQp_neNp5jmdLZXZAqqhcjk8=
+gallery-banner-darkened.jpg
+Edited by Kaleb Jubar
 
 gallery/house1.jpg
 https://media.istockphoto.com/id/1272163106/photo/large-house-with-steep-roof-and-side-entry-three-car-garage.jpg?s=612x612&w=0&k=20&c=zCHxziqhujITjR0IMoCPFxFDPypIs6fMgpKdYHKWzaA=
@@ -44,3 +50,5 @@ https://media.istockphoto.com/id/589538090/photo/exterior-of-small-american-hous
 
 contact-banner.jpg
 https://media.istockphoto.com/id/1250628455/photo/happy-couple-closed-a-deal-with-manual-workers-at-construction-site.jpg?s=612x612&w=0&k=20&c=NjYRIZc7mf_3VhJxSAajQVCcNJaJijUFzR7RTTg1Kgw=
+contact-banner-darkened.jpg
+Edited by Kaleb Jubar
