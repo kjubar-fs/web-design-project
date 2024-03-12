@@ -1,6 +1,6 @@
 --  Author: Kaleb Jubar
 --  Created: 7 Mar 2024, 9:44:40 PM
---  Last update: 11 Mar 2024, 6:10:03 PM
+--  Last update: 12 Mar 2024, 11:27:23 AM
 --  Copyright (c) 2024 Kaleb Jubar
 
 hero-house.jpg
@@ -11,8 +11,13 @@ Edited by Kaleb Jubar
 team.jpg
 https://media.istockphoto.com/id/1189913170/photo/engineer-and-businessman-handshake-at-construction-site.jpg?s=612x612&w=0&k=20&c=LAGNJv533KQKPrb71GiavOCaTKVI5IfR_QioV_t88hM=
 
-services-banner.jpg
+old/services-banner.jpg
 https://t4.ftcdn.net/jpg/02/69/66/55/360_F_269665555_EUTbghVSidprZtdsV94mhuq4vObgkXGo.jpg
+old/services-banner-darkened.jpg
+Edited by Kaleb Jubar
+
+services-banner.jpg
+https://honigconte.com/wp-content/uploads/2016/03/General-Contractors-Insurance-Guide-Tips-on-Saving-More.jpg
 services-banner-darkened.jpg
 Edited by Kaleb Jubar
 
@@ -34,8 +39,13 @@ https://media.istockphoto.com/id/171109280/photo/close-up-of-man-putting-hardwoo
 service-hvac-elec.jpg
 https://t4.ftcdn.net/jpg/01/68/45/21/360_F_168452182_nMdAiFK2rhsT0FW6d7QyYSw0Eb0bFTTs.jpg
 
-gallery-banner.jpg
+old/gallery-banner.jpg
 https://media.istockphoto.com/id/856794670/photo/beautiful-luxury-home-exterior-with-green-grass-and-landscaped-yard.jpg?s=612x612&w=0&k=20&c=Jaun3vYekdy6aBcqq5uDQp_neNp5jmdLZXZAqqhcjk8=
+old/gallery-banner-darkened.jpg
+Edited by Kaleb Jubar
+
+gallery-banner.jpg
+https://www.realestate.com.au/blog/images/2000x1500-fit,progressive/2017/06/14171710/Mont-albert.jpg
 gallery-banner-darkened.jpg
 Edited by Kaleb Jubar
 
@@ -48,7 +58,12 @@ https://t3.ftcdn.net/jpg/01/18/46/52/360_F_118465200_0q7Of6UnbA8kDlYEe3a4PuIyue2
 gallery/house3.jpg
 https://media.istockphoto.com/id/589538090/photo/exterior-of-small-american-house-with-blue-paint.jpg?s=612x612&w=0&k=20&c=bg1x9nUvyhBRtWpuETh-2NDnSOzehq6OsxU5dAE_1bc=
 
-contact-banner.jpg
+old/contact-banner.jpg
 https://media.istockphoto.com/id/1250628455/photo/happy-couple-closed-a-deal-with-manual-workers-at-construction-site.jpg?s=612x612&w=0&k=20&c=NjYRIZc7mf_3VhJxSAajQVCcNJaJijUFzR7RTTg1Kgw=
+old/contact-banner-darkened.jpg
+Edited by Kaleb Jubar
+
+contact-banner.jpg
+https://assets-us-01.kc-usercontent.com/fa776f1a-4d27-4a6b-ae1c-2ce928f9647d/9da5e414-faa4-4abb-959b-982103cd072b/construction-contracts_cropped.jpg
 contact-banner-darkened.jpg
 Edited by Kaleb Jubar
