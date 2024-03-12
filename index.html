@@ -2,7 +2,7 @@
 <!--
  Author: Kaleb Jubar
  Created: 28 Feb 2024, 9:38:27 PM
- Last update: 12 Mar 2024, 12:28:18 PM
+ Last update: 12 Mar 2024, 12:53:00 PM
  Copyright (c) 2024 Kaleb Jubar
 -->
 <html>
@@ -15,18 +15,100 @@
         <header>
             <ul>
                 <li id="logoContainer">
-                    <a href="#"><span id="tempLogo">A-Plus Construction</span></a> <!-- TODO: replace with logo later -->
+                    <a class="noLinkDeco" href="#"><span id="tempLogo">A-Plus Construction</span></a> <!-- TODO: replace with logo later -->
                     <span id="tempBurger"></span> <!-- TODO: replace with burger menu later -->
                 </id>
-                <li><a href="#">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a class="noLinkDeco" href="#">Home</a></li>
+                <li><a class="noLinkDeco" href="#services">Services</a></li>
+                <li><a class="noLinkDeco" href="#gallery">Gallery</a></li>
+                <li><a class="noLinkDeco" href="./contact.html">Contact Us</a></li>
             </ul>
         </header>
 
         <main>
+            <div id="hero">
+                <div id="heroBanner">
+                    <h1>Canada's Number One Home Construction Experts</h1>
+                </div>
 
+                <div id="heroIntro" class="intro">
+                    <hr>
+                    <p>
+                        Our team of trained contractors, designers, and tradespeople have been constructing and remodeling homes for over 40 years. 
+                        Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
+                    </p>
+                    <hr>
+                </div>
+            </div>
+
+            <div id="services">
+                <div id="servicesBanner">
+                    <h1>Our Services</h1>
+                </div>
+
+                <div id="servicesIntro" class="intro">
+                    <hr>
+                    <p>
+                        We provide an array of common services to fit all of your needs. Check out our services page for the full list, 
+                        and if you need anything not listed here, feel free to contact us and we will work with you on a solution.
+                    </p>
+                    <hr>
+                </div>
+
+                <div id="servicesContainer" class="backCard">
+                    <div class="serviceCard">
+                        <img src="assets/images/service-construction.jpg" alt="the frame of a house under construction">
+                        <h2>Construction</h2>
+                    </div>
+
+                    <div class="serviceCard">
+                        <img src="assets/images/service-remodeling.jpg" alt="interior designer supplies scattered over a blueprint">
+                        <h2>Remodeling</h2>
+                    </div>
+
+                    <div class="serviceCard">
+                        <img src="assets/images/service-repair.jpg" alt="a fallen tree laying on a partially-destroyed house">
+                        <h2>Damage Repair</h2>
+                    </div>
+
+                    <div class="serviceCard">
+                        <img src="assets/images/service-roofing.jpg" alt="a man installing roofing shingles">
+                        <h2>Roofing</h2>
+                    </div>
+
+                    <div class="serviceCard">
+                        <img src="assets/images/service-flooring.jpg" alt="a man installing wood floorboards">
+                        <h2>Flooring</h2>
+                    </div>
+
+                    <div class="serviceCard">
+                        <img src="assets/images/service-hvac-elec.jpg" alt="an electrician testing an air conditioning unit">
+                        <h2>HVAC and Electrical</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div id="gallery">
+                <div id="galleryBanner">
+                    <h1>Gallery</h1>
+                </div>
+
+                <div id="galleryIntro" class="intro">
+                    <hr>
+                    <p>
+                        We are proud of the quality of our work, and our customers are too! Check out some of our finished projects here.
+                    </p>
+                    <hr>
+                </div>
+
+                <div id="galleryContainer" class="backCard">
+                    <img class="galleryImage" src="assets/images/gallery/house1.jpg" alt="the front facade of a large, white house">
+                    <img class="galleryImage" src="assets/images/gallery/house2.jpg" alt="the front facade of a large, gray house">
+                    <img class="galleryImage" src="assets/images/gallery/house3.jpg" alt="the front facade of a small, light blue house">
+                </div>
+
+                <a id="galleryButton" class="button noLinkDeco" href="#">Click here to see more!</a>
+            </div>
         </main>
         
         <footer>
