@@ -2,7 +2,7 @@
 <!--
  Author: Kaleb Jubar
  Created: 12 Mar 2024, 12:27:42 PM
- Last update: 12 Mar 2024, 12:30:43 PM
+ Last update: 12 Mar 2024, 3:59:49 PM
  Copyright (c) 2024 Kaleb Jubar
 -->
 <html>
@@ -15,7 +15,7 @@
         <header>
             <ul>
                 <li id="logoContainer">
-                    <a href="#"><span id="tempLogo">A-Plus Construction</span></a> <!-- TODO: replace with logo later -->
+                    <a href="./index.html"><span id="tempLogo">A-Plus Construction</span></a> <!-- TODO: replace with logo later -->
                     <span id="tempBurger"></span> <!-- TODO: replace with burger menu later -->
                 </id>
                 <li><a href="./index.html">Home</a></li>
@@ -26,7 +26,36 @@
         </header>
 
         <main>
+            <div id="hero">
+                <div id="heroBanner">
+                    <h1>Contact Us</h1>
 
+                    <div id="heroIntro" class="intro card">
+                        <hr>
+                        <p>
+                            DIYs got you down and you need professional assistance? Bad storm damage your home? Just interested in taking on a new project 
+                            and don't know where to start? Let us know and we'll get in touch with a plan and estimate as soon as we can!
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <form id="contactForm">
+                <label for="contactName">Your Name</label>
+                <input id="contactName" name="contactName" required>
+
+                <label for="contactEmail">Email</label>
+                <input id="contactEmail" name="contactEmail" type="email" required>
+                
+                <label for="contactPhone">Phone (opt.)</label>
+                <input id="contactPhone" name="contactPhone" pattern="^(\+?\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
+
+                <label for="contactMessage">Question</label>
+                <textarea id="contactMessage" name="contactMessage" required></textarea>
+
+                <input id="submitContact" type="submit">
+            </form>
         </main>
 
         <footer>
