@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 28 Feb 2024, 9:48:21 PM
+ *  Last update: 12 Mar 2024, 4:21:10 PM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -9,4 +9,13 @@
 *, *::before, *::after {
     margin: 0;
     padding: 0;
+}
+
+/* general styles */
+body {
+    font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: "Calistoga", "Times New Roman", Times, serif;
 }
