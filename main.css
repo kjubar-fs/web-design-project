@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 13 Mar 2024, 10:16:04 AM
+ *  Last update: 13 Mar 2024, 10:21:48 AM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -99,4 +99,12 @@ header > ul > li > a {
 #galleryBanner {
     height: 25vh;
     background: url("assets/images/gallery-banner-darkened.jpg");
+}
+
+/* footer styles */
+footer {
+    background-color: var(--bg-light);
+    padding: 20px 20px;
+    color: white;
+    margin-top: 40px;
 }
