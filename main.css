@@ -1,9 +1,19 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 12 Mar 2024, 4:21:10 PM
+ *  Last update: 12 Mar 2024, 9:08:58 PM
  *  Copyright (c) 2024 Kaleb Jubar
  */
+
+/* color scheme variables */
+:root {
+    --bg-dark: #051821;
+    --bg-mid: #1A4645;
+    --bg-light: #266867;
+    --bg-gray: #F3F3F3;
+    --accent-dark: #F58800;
+    --accent-light: #F8BC24;
+}
 
 /* clear margin and padding to make our own styles */
 *, *::before, *::after {
@@ -18,4 +28,35 @@ body {
 
 h1 {
     font-family: "Calistoga", "Times New Roman", Times, serif;
+}
+
+a.no-link-deco, a.no-link-deco:visited {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* header styles */
+header {
+    background-color: var(--bg-light);
+}
+
+header > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+header > ul > li {
+    padding: 20px;
+}
+
+#logoContainer {
+    padding: 40px 20px;
+    border-bottom: 1px solid white;
+}
+
+header > ul > li > a {
+    color: white;
 }
