@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 12 Mar 2024, 9:08:58 PM
+ *  Last update: 13 Mar 2024, 10:16:04 AM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -26,15 +26,22 @@ body {
     font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
 }
 
+body :not(h1, h2) {     /* make all the text slightly larger for anything that's not a header, on mobile */
+    font-size: large;
+}
+
 h1 {
     font-family: "Calistoga", "Times New Roman", Times, serif;
+    color: white;
+    text-shadow: black 2px 2px 5px;
+    text-align: center;
 }
 
 a.no-link-deco, a.no-link-deco:visited {
     text-decoration: none;
 }
 
-img {
+img {   /* TODO: determine if this needs to be removed */
     width: 100%;
 }
 
@@ -59,4 +66,37 @@ header > ul > li {
 
 header > ul > li > a {
     color: white;
+}
+
+/* banner styles */
+.banner {
+    background-position: center !important;     /* need !important here so that we can set background image in individual #id styles */
+    background-size: cover !important;          /*  without having to specify position and size in every #id style */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;                     /* make specified size of banners include padding */
+}
+
+#heroBanner {
+    height: 40vh;
+    background: url("assets/images/hero-house-darkened.jpg");
+}
+
+#heroBannerContact {
+    height: 40vh;
+    background: url("assets/images/contact-banner-darkened.jpg");
+}
+
+#servicesBanner {
+    height: 25vh;
+    background: url("assets/images/services-banner-darkened.jpg");
+}
+
+#galleryBanner {
+    height: 25vh;
+    background: url("assets/images/gallery-banner-darkened.jpg");
 }
