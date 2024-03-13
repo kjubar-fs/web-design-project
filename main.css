@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 13 Mar 2024, 10:21:48 AM
+ *  Last update: 13 Mar 2024, 11:16:49 AM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -33,7 +33,7 @@ body :not(h1, h2) {     /* make all the text slightly larger for anything that's
 h1 {
     font-family: "Calistoga", "Times New Roman", Times, serif;
     color: white;
-    text-shadow: black 2px 2px 5px;
+    text-shadow: black 0 2px 5px;
     text-align: center;
 }
 
@@ -43,6 +43,11 @@ a.no-link-deco, a.no-link-deco:visited {
 
 img {   /* TODO: determine if this needs to be removed */
     width: 100%;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 5px #555;
 }
 
 /* header styles */
@@ -101,10 +106,24 @@ header > ul > li > a {
     background: url("assets/images/gallery-banner-darkened.jpg");
 }
 
+/* intro/description styles */
+:not(.banner) > .intro {
+    margin: 80px 40px;
+}
+
+.intro > p {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.banner > .intro > p {
+    margin: 15px 20px;
+}
+
 /* footer styles */
 footer {
     background-color: var(--bg-light);
-    padding: 20px 20px;
+    padding: 30px 20px;
     color: white;
     margin-top: 40px;
 }
