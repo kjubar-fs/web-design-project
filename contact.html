@@ -2,7 +2,7 @@
 <!--
  Author: Kaleb Jubar
  Created: 12 Mar 2024, 12:27:42 PM
- Last update: 14 Mar 2024, 1:26:47 PM
+ Last update: 14 Mar 2024, 2:30:49 PM
  Copyright (c) 2024 Kaleb Jubar
 -->
 <html>
@@ -21,7 +21,7 @@
         <header>
             <ul>
                 <li id="logoContainer">
-                    <a id="logoLink" class="no-link-deco" href="#"><span id="tempLogo">A-Plus Construction</span></a> <!-- TODO: replace with logo later -->
+                    <a id="logoLink" class="no-link-deco" href="./index.html"><span id="tempLogo">A-Plus Construction</span></a> <!-- TODO: replace with logo later -->
                     <input id="burgerMenu" type="checkbox">
                 </id>
                 <li class="collapsible"><a class="no-link-deco" href="./index.html">Home</a></li>
@@ -53,13 +53,16 @@
                 <input id="contactEmail" name="contactEmail" type="email" required>
                 
                 <label for="contactPhone">Phone (opt.)</label>
-                <input id="contactPhone" name="contactPhone" pattern="^(\+?\d{1,2}\s?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$">
+                <!-- the regex on the following field validates a lot of different phone number formats
+                     taken from rolling_codes and Simon_Weaver at https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number -->
+                <input id="contactPhone" name="contactPhone" pattern="(\+?\d{1,2}\s?)?\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}">
 
                 <label for="contactMessage">Question</label>
                 <textarea id="contactMessage" name="contactMessage" required></textarea>
 
-                <input id="submitContact" type="submit">
+                <input id="submitContact" class="button" type="submit" value="Submit Question">
             </form>
+            <p id="contactBlurb">Prefer to speak to an associate directly instead? Call us at 555-555-5555, Monday through Friday, 9 AM to 5 PM.</p>
         </main>
 
         <footer>
