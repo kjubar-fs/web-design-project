@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 14 Mar 2024, 11:16:23 AM
+ *  Last update: 14 Mar 2024, 11:35:14 AM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -26,8 +26,8 @@ body {
     font-family: "IBM Plex Sans", Arial, Helvetica, sans-serif;
 }
 
-body :not(h1, h2) {     /* make all the text slightly larger for anything that's not a header, on mobile */
-    font-size: large;
+p, a {     /* make most text slightly larger on mobile */
+    font-size: 1.2em;
 }
 
 h1 {
@@ -35,6 +35,7 @@ h1 {
     color: white;
     text-shadow: black 0 2px 5px;
     text-align: center;
+    font-size: 2.3em;
 }
 
 a.no-link-deco, a.no-link-deco:visited {
@@ -172,7 +173,6 @@ hr::after {
     width: 65%;
     text-align: center;
     padding: 0 15px;    /* only really need horizontal padding here for making a gap on small screens, vertical is not needed since we align vertically */
-    font-size: 1.4em;
 }
 
 /* footer styles */
