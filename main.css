@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 13 Mar 2024, 11:32:18 AM
+ *  Last update: 14 Mar 2024, 11:16:23 AM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -41,12 +41,20 @@ a.no-link-deco, a.no-link-deco:visited {
     text-decoration: none;
 }
 
-img {   /* TODO: determine if this needs to be removed */
-    width: 100%;
-}
-
 .card {
     background-color: white;
+}
+
+.back-card {
+    background-color: var(--bg-gray);
+    margin: 0 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card, .back-card {
     box-shadow: 0 4px 5px #555;
 }
 
@@ -143,6 +151,28 @@ hr::before {
 
 hr::after {
     background-color: var(--accent-dark);
+}
+
+/* service section styles */
+#servicesContainer {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.service-card {
+    display: flex;
+    align-items: center;
+}
+
+.service-card > img {
+    width: 35%;
+}
+
+.service-card > h2 {
+    width: 65%;
+    text-align: center;
+    padding: 0 15px;    /* only really need horizontal padding here for making a gap on small screens, vertical is not needed since we align vertically */
+    font-size: 1.4em;
 }
 
 /* footer styles */
