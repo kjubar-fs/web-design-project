@@ -1,6 +1,6 @@
 --  Author: Kaleb Jubar
 --  Created: 7 Mar 2024, 9:44:40 PM
---  Last update: 14 Mar 2024, 11:18:01 AM
+--  Last update: 15 Mar 2024, 10:50:13 AM
 --  Copyright (c) 2024 Kaleb Jubar
 
 hero-house.jpg
@@ -75,7 +75,7 @@ https://media.istockphoto.com/id/1250628455/photo/happy-couple-closed-a-deal-wit
 old/contact-banner-darkened.jpg
 Edited by Kaleb Jubar
 
-contact-banner.jpg
-https://assets-us-01.kc-usercontent.com/fa776f1a-4d27-4a6b-ae1c-2ce928f9647d/9da5e414-faa4-4abb-959b-982103cd072b/construction-contracts_cropped.jpg
-contact-banner-darkened.jpg
-Edited by Kaleb Jubar
+logo-v1.png
+logo-v2.png
+logo-v3.png
+Created by Tyler Jubar (my brother :))

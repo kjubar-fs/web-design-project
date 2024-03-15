@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 14 Mar 2024, 9:58:22 PM
+ *  Last update: 15 Mar 2024, 10:42:04 AM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -104,13 +104,17 @@ header > ul > li > a {
 /* I spent way too long figuring out how to set this up but it's pure CSS, so that's neat
    however, I couldn't get a smooth animation without using JavaScript, so it just pops in/out for now */
 #logoContainer {
-    padding: 40px 20px;
+    padding: 0 20px;
     display: flex;
     border-bottom: 1px solid white;
 }
 
 #logoLink {                     /* make sure the logo takes up as much of the space as possible */
     flex-grow: 1;
+}
+
+img#logo {
+    max-width: 250px;
 }
 
 #burgerMenu {                   /* hide the actual checkbox, we'll replace it with a ::before element */
@@ -338,7 +342,7 @@ footer {
     /* I spent way too long figuring out how to set this up but it's pure CSS, so that's neat */
     /* I couldn't get a smooth animation without using JavaScript, so it just pops in/out for now */
     #logoContainer {
-        padding: 60px 40px;
+        padding: 0 40px;
         flex-grow: 1;
         border-bottom: none;
     }
