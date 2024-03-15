@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 14 Mar 2024, 7:51:34 PM
+ *  Last update: 14 Mar 2024, 8:26:23 PM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -172,6 +172,10 @@ header:has(#burgerMenu:not(:checked)) .collapsible {    /* hide any collapsible 
 }
 
 /* intro/description styles */
+#heroIntroImage {
+    display: none;
+}
+
 :not(.banner) > .intro {
     margin: 80px 40px;
 }
@@ -313,5 +317,34 @@ footer {
     
     header:has(#burgerMenu:not(:checked)) .collapsible {    /* always show nav items  */
         display: block;
+    }
+
+    /* intro/description styles */
+    #heroIntroContainer {
+        display: flex;
+        align-items: center;
+        margin: 100px 10%;
+    }
+
+    #heroIntroContainer > #heroIntroImage {
+        display: block;
+        width: 40%;
+    }
+
+    #heroIntroContainer > #heroIntro {
+        width: 60%;
+        margin: 80px;
+    }
+
+    .intro > p {
+        margin: 60px 0;
+    }
+
+    .banner {
+        gap: 80px;
+    }
+
+    .banner > .intro {
+        width: 30%;
     }
 }
