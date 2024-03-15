@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 14 Mar 2024, 8:38:54 PM
+ *  Last update: 14 Mar 2024, 8:45:19 PM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -348,9 +348,13 @@ footer {
         width: 30%;
     }
 
-    /* service section styles */
-    #servicesContainer {
+    /* service section and gallery section styles */
+    #servicesContainer, #galleryCard {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #galleryCard > .card {
+        width: 100%;
     }
 }
