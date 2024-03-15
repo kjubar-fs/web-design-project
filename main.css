@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 14 Mar 2024, 2:22:24 PM
+ *  Last update: 14 Mar 2024, 7:51:34 PM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -100,6 +100,7 @@ header > ul > li > a {
 
 /* logo/burger menu styles */
 /* I spent way too long figuring out how to set this up but it's pure CSS, so that's neat */
+/* I couldn't get a smooth animation without using JavaScript, so it just pops in/out for now */
 #logoContainer {
     padding: 40px 20px;
     display: flex;
@@ -274,4 +275,43 @@ footer {
     padding: 30px 20px;
     color: white;
     margin-top: 40px;
+}
+
+/* desktop-specific styles */
+@media screen and (min-width: 901px) {
+    /* general styles */
+    p, a, input, textarea {     /* return font sizes to normal on desktop */
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    /* header styles */
+    header > ul {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header > ul > li {
+        padding: 60px 40px;
+    }
+
+    /* logo/burger menu styles */
+    /* I spent way too long figuring out how to set this up but it's pure CSS, so that's neat */
+    /* I couldn't get a smooth animation without using JavaScript, so it just pops in/out for now */
+    #logoContainer {
+        padding: 60px 40px;
+        flex-grow: 1;
+        border-bottom: none;
+    }
+    
+    #burgerMenu, #burgerMenu::before {
+        display: none;
+    }
+    
+    header:has(#burgerMenu:not(:checked)) .collapsible {    /* always show nav items  */
+        display: block;
+    }
 }
