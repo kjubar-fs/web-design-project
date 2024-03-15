@@ -2,7 +2,7 @@
 <!--
  Author: Kaleb Jubar
  Created: 28 Feb 2024, 9:38:27 PM
- Last update: 15 Mar 2024, 11:42:08 AM
+ Last update: 15 Mar 2024, 12:03:25 PM
  Copyright (c) 2024 Kaleb Jubar
 -->
 <html lang="en">
@@ -27,6 +27,8 @@
                         <img id="logo" src="assets/images/logo-v3.png" alt="A-Plus Construction logo">
                     </a>
                     <input id="burgerMenu" type="checkbox">
+                    <!-- this label doesn't appear on the page, but it gives context to the burger menu for screen readers -->
+                    <label id="burgerMenuLabel" class="hidden" for="burgerMenu" aria-hidden="false">Click to expand navigation bar</label>
                 </id>
                 <li class="collapsible"><a class="no-link-deco" href="#">Home</a></li>
                 <li class="collapsible"><a class="no-link-deco" href="#services">Services</a></li>

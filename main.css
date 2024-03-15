@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 15 Mar 2024, 10:42:04 AM
+ *  Last update: 15 Mar 2024, 12:02:20 PM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -78,6 +78,10 @@ a.no-link-deco, a.no-link-deco:visited {
 .button:active {
     box-shadow: none;
     transform: translateY(5px);     /* shift the button down a few pixels to make it look like it's pressing in */
+}
+
+.hidden {   /* couple this with aria-hidden="false" to show element only to screen readers */
+    display: none;
 }
 
 /* header styles */
@@ -278,7 +282,7 @@ hr::after {
    I first figured this out for Lab 3, so I'm reusing that here since it's neat */
 .field-group > label:has(+ input:required)::after, .field-group > label:has(+ textarea:required)::after {
     content: " *";
-    color: red;
+    color: var(--accent-dark);
 }
 
 #contactForm > input[type="submit"] {

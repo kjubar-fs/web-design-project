@@ -2,10 +2,10 @@
 <!--
  Author: Kaleb Jubar
  Created: 12 Mar 2024, 12:27:42 PM
- Last update: 15 Mar 2024, 11:51:17 AM
+ Last update: 15 Mar 2024, 12:05:36 PM
  Copyright (c) 2024 Kaleb Jubar
 -->
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +27,8 @@
                         <img id="logo" src="assets/images/logo-v3.png" alt="A-Plus Construction logo">
                     </a>
                     <input id="burgerMenu" type="checkbox">
+                    <!-- this label doesn't appear on the page, but it gives context to the burger menu for screen readers -->
+                    <label id="burgerMenuLabel" class="hidden" for="burgerMenu" aria-hidden="false">Click to expand navigation bar</label>
                 </id>
                 <li class="collapsible"><a class="no-link-deco" href="./index.html">Home</a></li>
                 <li class="collapsible"><a class="no-link-deco" href="./index.html#services">Services</a></li>
