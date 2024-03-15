@@ -2,7 +2,7 @@
 <!--
  Author: Kaleb Jubar
  Created: 12 Mar 2024, 12:27:42 PM
- Last update: 14 Mar 2024, 2:30:49 PM
+ Last update: 14 Mar 2024, 9:02:33 PM
  Copyright (c) 2024 Kaleb Jubar
 -->
 <html>
@@ -46,19 +46,27 @@
             </div>
 
             <form id="contactForm">
-                <label for="contactName">Your Name</label>
-                <input id="contactName" name="contactName" required>
+                <div class="field-group">
+                    <label for="contactName">Your Name</label>
+                    <input id="contactName" name="contactName" required>
+                </div>
 
-                <label for="contactEmail">Email</label>
-                <input id="contactEmail" name="contactEmail" type="email" required>
+                <div class="field-group">
+                    <label for="contactEmail">Email</label>
+                    <input id="contactEmail" name="contactEmail" type="email" required>
+                </div>
                 
-                <label for="contactPhone">Phone (opt.)</label>
-                <!-- the regex on the following field validates a lot of different phone number formats
-                     taken from rolling_codes and Simon_Weaver at https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number -->
-                <input id="contactPhone" name="contactPhone" pattern="(\+?\d{1,2}\s?)?\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}">
+                <div class="field-group">
+                    <label for="contactPhone">Phone (opt.)</label>
+                    <!-- the regex on the following field validates a lot of different phone number formats
+                        taken from rolling_codes and Simon_Weaver at https://stackoverflow.com/questions/16699007/regular-expression-to-match-standard-10-digit-phone-number -->
+                    <input id="contactPhone" name="contactPhone" pattern="(\+?\d{1,2}\s?)?\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}">
+                </div>
 
-                <label for="contactMessage">Question</label>
-                <textarea id="contactMessage" name="contactMessage" required></textarea>
+                <div class="field-group">
+                    <label for="contactMessage">Question</label>
+                    <textarea id="contactMessage" name="contactMessage" required></textarea>
+                </div>
 
                 <input id="submitContact" class="button" type="submit" value="Submit Question">
             </form>

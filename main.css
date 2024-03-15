@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 14 Mar 2024, 8:45:19 PM
+ *  Last update: 14 Mar 2024, 9:56:00 PM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -99,8 +99,8 @@ header > ul > li > a {
 }
 
 /* logo/burger menu styles */
-/* I spent way too long figuring out how to set this up but it's pure CSS, so that's neat */
-/* I couldn't get a smooth animation without using JavaScript, so it just pops in/out for now */
+/* I spent way too long figuring out how to set this up but it's pure CSS, so that's neat
+   however, I couldn't get a smooth animation without using JavaScript, so it just pops in/out for now */
 #logoContainer {
     padding: 40px 20px;
     display: flex;
@@ -245,12 +245,12 @@ hr::after {
     margin: 40px;
 }
 
-#contactForm > label, #contactForm > input, #contactForm > textarea {
+.field-group > label, .field-group > input, .field-group > textarea, #contactForm > input[type="submit"] {
     display: block;
     width: 100%;
 }
 
-#contactForm > input:not([type="submit"]), #contactForm > textarea {
+.field-group > input:not([type="submit"]), .field-group > textarea {
     margin-bottom: 20px;
     background-color: #F9F9F9;
     border: 1px solid #888;
@@ -260,8 +260,19 @@ hr::after {
     box-shadow: inset 0 2px 5px -2px #555;
 }
 
-#contactForm > label {
+.field-group > input:not([type="submit"]):focus, .field-group > textarea:focus {
+    outline-color: var(--bg-mid);   /* set a custom focus outline color to match the theme */
+}
+
+.field-group > label {
     margin-bottom: 3px;
+}
+
+/* add * to labels for required fields
+   I first figured this out for Lab 3, so I'm reusing that here since it's neat */
+.field-group > label:has(+ input:required)::after, .field-group > label:has(+ textarea:required)::after {
+    content: " *";
+    color: red;
 }
 
 #contactForm > input[type="submit"] {
@@ -284,6 +295,25 @@ footer {
 /* desktop-specific styles */
 @media screen and (min-width: 901px) {
     /* general styles */
+    /* the body and main styles below are a quick hack to make the footer always stick to the bottom of the page
+       if there isn't enough content to make it go to the bottom (like on the contact page, at certain resolutions)
+
+       display: flex and a min-height of the viewport, plus flex-grow on the main, will cause the footer to get
+       pushed down to the bottom of the screen
+       
+       this has no noticeable effect when the screen needs to scroll - it looks the same
+       
+       adapted from MAChitgarha's response here https://stackoverflow.com/questions/28128400/keep-footer-at-the-bottom-of-the-page-with-scrolling-if-needed */
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    main {
+        flex-grow: 1;
+    }
+
     p, a, input, textarea {     /* return font sizes to normal on desktop */
         font-size: 1em;
     }
@@ -356,5 +386,24 @@ footer {
 
     #galleryCard > .card {
         width: 100%;
+    }
+
+    /* contact form styles */
+    #contactForm {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 40px;
+    }
+
+    .field-group:has(textarea) {
+        grid-column: 1 / 4;
+    }
+
+    .field-group > textarea {
+        min-height: 150px;
+    }
+
+    #contactBlurb {
+        text-align: left;
     }
 }
