@@ -1,7 +1,7 @@
 /*
  *  Author: Kaleb Jubar
  *  Created: 28 Feb 2024, 9:38:56 PM
- *  Last update: 14 Mar 2024, 9:56:00 PM
+ *  Last update: 14 Mar 2024, 9:58:22 PM
  *  Copyright (c) 2024 Kaleb Jubar
  */
 
@@ -96,6 +96,8 @@ header > ul > li {
 
 header > ul > li > a {
     color: white;
+    display: inline-block;
+    width: 100%;
 }
 
 /* logo/burger menu styles */
