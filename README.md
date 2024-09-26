@@ -8,7 +8,9 @@ The images used are stock images obtained from various sites on the internet, ea
 
 The mobile version of the website features a collapsible navigation menu that was implemented entirely via HTML/CSS. I spent some time trying to figure out how to animate it, but it wasn't possible to get something completely smooth without using JavaScript, so the menu is currently not animated. Either way, I thought this was a neat additional feature to add to the website.
 
-The code features detailed comments where necessary, as well as category divisions for the CSS to keep everything organized. This should hopefully explain any technical decisions or novel solutions I came up with for this project. There are a few snippets of code that were adapted from StackOverflow solutions, if I was unable to figure them out on my own; these references are documented in the comments related to the code snippet. If you have any questions about my implementation of the website, feel free to email me at k_jubar@fanshaweonline.ca and I would be happy to explain.
+The code features detailed comments where necessary, as well as category divisions for the CSS to keep everything organized. This should hopefully explain any technical decisions or novel solutions I came up with for this project. There are a few snippets of code that were adapted from StackOverflow solutions, if I was unable to figure them out on my own; these references are documented in the comments related to the code snippet.
+
+[//]: # "If you have any questions about my implementation of the website, feel free to email me at k_jubar@fanshaweonline.ca and I would be happy to explain."
 
 ## Design Principles
 ### Contrast and Color Scheme
